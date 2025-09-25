@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 #BASE_URL=os.getenv("base_url")
-BASE_URL1=os.getenv("base_url")
+BASE_URL1=os.getenv("base_url1")
  
 st.title("Item Manager")
  
