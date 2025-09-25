@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from models import Item
 
-
 app=FastAPI()
 
 items={}
@@ -13,7 +12,7 @@ def create_item(item:Item):
     return{"message":"Item created","item_id":item_id}
 
 
-@app.get("/items")
+@app.get("/items") 
 def  get_items():
     return{"items":items}
 
